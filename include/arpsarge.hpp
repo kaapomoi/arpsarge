@@ -2,8 +2,8 @@
 // Created by Kaapo on 10-Sep-22.
 //
 
-#ifndef REGRAPSA_HPP
-#define REGRAPSA_HPP
+#ifndef ARPSARGE_HPP
+#define ARPSARGE_HPP
 
 #include <vector>
 #include <string_view>
@@ -14,7 +14,7 @@
 
 template<typename char_type>
 struct char_eq {
-    bool operator()(char_type a, char_type b) {
+    bool operator()(char_type a, char_type b) noexcept {
         return (std::tolower(a) == std::tolower(b));
     }
 };
