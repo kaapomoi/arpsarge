@@ -1,3 +1,3 @@
-add_library(regrapsa INTERFACE)
+add_library(arpsarge INTERFACE)
 
-target_include_directories(regrapsa INTERFACE include)
+target_include_directories(arpsarge INTERFACE include)
